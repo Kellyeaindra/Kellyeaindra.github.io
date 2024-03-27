@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+}
+.calendar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+.dayname,.day{
+    width: 65px;
+    height: 65px;
+    border: 1px solid black;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+}
+.week{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.dayname{
+    background-color: olive;
+}
+.day{
+    background-color: white;
+}
+.box{
+    text-align: center;
+}
+#show{
+    width: 80px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+.footer{
+    text-align: center;
+    padding-top: 20px;
+}
+#add{
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+}

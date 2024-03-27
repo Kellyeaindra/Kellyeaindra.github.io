@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+body{
+    background-color: #4f666a;
+}
+.box{
+    width: 230px;
+    height: 200px;
+    border: 1px solid #91a3b0;
+    border-radius: 12px;
+    background-color: #b7bbc2;
+    padding: 50px;
+    font-size: 22px;
+    margin-top: 6%;
+}
+#answer{
+    margin: auto;
+    color: red;
+    font-size: 35px;
+    padding-left: 40px;
+}
+.b{
+    width: 90px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+.c{
+    width: 200px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.title{
+    color: white;
+    font-weight: bolder;
+    font-size: 26px;
+}

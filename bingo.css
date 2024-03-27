@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e4477;
+}
+.circle{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px;
+    transition: all 0.5s linear;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.board{
+    background-color: thistle;
+    border-radius: 20px;
+}
+#turn{
+    color: tomato;
+    font-size: 40px;
+    margin: 20px;
+    font-weight: bold;
+}
+#winner{
+    color: skyblue;
+    font-size: 30px;
+    margin: 20px;
+}
